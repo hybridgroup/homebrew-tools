@@ -1,14 +1,14 @@
 class Gort < Formula
   desc "GORT is a Command Line Toolkit for RobotOps"
   homepage "http://gort.io/"
-  version "0.5.2"
+  version "0.6.1"
 
   if MacOS.prefer_64_bit?
-    url "https://s3.amazonaws.com/gort-io/0.5.2/gort_0.5.2_darwin_amd64.zip"
-    sha256 "dbcc1f35017ec452986798468631b47350b5bc6dc33e25e812c94c74438f190a"
+    url "https://s3.amazonaws.com/gort-io/0.6.1/gort_0.6.1_darwin_amd64.zip"
+    sha256 "14fc273765127f222a92b152153ae140eaf442e6a051f0d33d2fc46d6cf307be"
   else
-    url "https://s3.amazonaws.com/gort-io/0.5.2/gort_0.5.2_darwin_386.zip"
-    sha256 "c22e022326774ea0b6a6d65fdb57ad2bf4c6e4fbc4221a26b46b0d6f8fa09822"
+    url "https://s3.amazonaws.com/gort-io/0.6.1/gort_0.6.1_darwin_386.zip"
+    sha256 "52d5f9075e0aedf5d92872a98c4590884caa82009674147536aa7d62e6f61296"
   end
 
   bottle :unneeded

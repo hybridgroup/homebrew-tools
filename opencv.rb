@@ -5,7 +5,7 @@ class Opencv < Formula
   sha256 "3787b3cc7b21bba1441819cb00c636911a846c0392ddf6211d398040a1e4886c"
 
   bottle do
-    root_url "https://homebrew.bintray.com/bottles-tools"
+    root_url "https://github.com/hybridgroup/homebrew-tools/releases/download/v0.10.1/opencv--4.0.0.high_sierra.bottle.tar.gz"
     sha256 "7c27e548cb6e131a0b5c695668fc77ddbf8ba54da5955ee7800e6949dfb3c2a6" => :high_sierra
   end
 

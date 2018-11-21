@@ -4,6 +4,11 @@ class Opencv < Formula
   url "https://github.com/opencv/opencv/archive/4.0.0.tar.gz"
   sha256 "3787b3cc7b21bba1441819cb00c636911a846c0392ddf6211d398040a1e4886c"
 
+  bottle do
+    root_url "https://homebrew.bintray.com/bottles-tools"
+    sha256 "7c27e548cb6e131a0b5c695668fc77ddbf8ba54da5955ee7800e6949dfb3c2a6" => :high_sierra
+  end
+
   depends_on "cmake" => :build
   depends_on "pkg-config" => :build
   depends_on "eigen"

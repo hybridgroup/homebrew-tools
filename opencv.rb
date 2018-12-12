@@ -20,6 +20,7 @@ class Opencv < Formula
   depends_on "tbb"
   depends_on "harfbuzz"
   depends_on "freetype"
+  depends_on "glog"  
 
   resource "contrib" do
     url "https://github.com/opencv/opencv_contrib/archive/4.0.0.tar.gz"

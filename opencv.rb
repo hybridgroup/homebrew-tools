@@ -27,10 +27,7 @@ class Opencv < Formula
     sha256 "4fb0681414df4baedce6e3f4a01318d6f4fcde6ee14854d761fd4e397a397763"
   end
 
-  needs :cxx11
-
   def install
-    ENV.cxx11
 
     resource("contrib").stage buildpath/"opencv_contrib"
 

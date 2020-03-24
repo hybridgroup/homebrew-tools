@@ -4,7 +4,7 @@ class Gort < Formula
   version "0.9.0"
 
   url "https://github.com/hybridgroup/gort/releases/download/v0.9.0/gort_0.9.0_darwin_amd64.zip"
-  sha256 "744fb23c83b1c5ac8612f08c3c9f791ad12a2bef0a9d0b79eb695da6a124025b"
+  sha256 "05b1baacdc0b4b6202a01b0e622d81ba60d2ed1963e6f14563f8caafc4ad8460"
 
   bottle :unneeded
 
